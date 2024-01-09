@@ -1,0 +1,35 @@
+.item{
+    display: flex;
+    width: 520px;
+    height: 64px;
+    align-items: center;
+    gap: 10px;
+    border-radius: 10px;  
+    margin-right: 2vh; 
+    font-family: Arial;
+      
+}
+
+.item_img_container{
+    width: 40px;
+   height: 40px;
+   border-radius: 100%; 
+   background-color: rgb(255, 255, 255);
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   margin-left: 5px;
+   border-radius: 10px; 
+   
+  
+}
+.item_img_container img{
+    width: 50%;
+    height: 50%;
+    
+}
+.item_title{
+    font-size: 24px;
+    color: rgb(255, 255, 255);
+}
+
